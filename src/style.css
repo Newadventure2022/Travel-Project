@@ -12,7 +12,7 @@ body {
   font-family: "poppins", sans-serif;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 30px;
   text-align: center;
@@ -44,6 +44,10 @@ header h2 {
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 footer {
   background-image: linear-gradient(
