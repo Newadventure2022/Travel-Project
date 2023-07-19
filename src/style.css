@@ -1,9 +1,5 @@
 body {
-  background: linear-gradient(
-    112.1deg,
-    rgb(32, 38, 57) 11.4%,
-    rgb(63, 76, 119) 70.2%
-  );
+  background-color: rgb(32, 38, 57);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,9 +11,14 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 30px;
-  text-align: center;
 }
-
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.about {
+  margin-left: 40px;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/Atlas-World-Map.png");
@@ -45,10 +46,7 @@ header h2 {
   line-height: 1.5;
   text-align: center;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 footer {
   background-image: linear-gradient(
       rgba(63, 76, 119, 0.9),
@@ -57,18 +55,38 @@ footer {
     url("../images/travel1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center, center;
   height: auto;
   width: 100%;
   border-radius: 2px;
-  padding: 10px 0;
+  padding: 100px 0;
 }
 footer h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
 }
-
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+section {
+  max-width: 1200px;
+  margin: 0 25px;
+}
 @media (max-width: 960px) {
   header {
     width: 100%;
