@@ -46,7 +46,8 @@ body {
 }
 
 .card-footer {
-  padding: 30px 30px;
+  margin: 0;
+  padding: 0;
 }
 .btn {
   display: block;
@@ -58,7 +59,7 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #251b4b;
   text-decoration: none;
 }
 section {
