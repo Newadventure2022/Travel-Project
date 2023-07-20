@@ -7,16 +7,18 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
-.shutterstock {
+.credits {
   position: absolute;
-  right: 00px;
+  padding-right: 5px;
+  right: 0px;
   top: 0px;
+  font-size: 15px;
 }
-.shutterstock a {
+.credits a {
   text-decoration: none;
-  color: white;
+  color: rgb(243, 243, 233);
 }
-.shutterstock a:hover {
+.credits a:hover {
   color: rgba(63, 76, 119, 0.9);
   transition: all 100ms ease-in-out;
   text-decoration: none;
@@ -31,7 +33,7 @@ body {
 }
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 10px;
 }
 .img-responsive {
   max-width: 100%;
@@ -42,7 +44,7 @@ body {
   color: black;
 }
 .grid-3-columns {
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   color: black;
   margin: 0;
   text-align: center;
@@ -96,9 +98,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center, center;
-  padding: 200px 0;
-  height: auto;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
 
@@ -119,7 +120,7 @@ h5 {
 main {
   background-color: white;
   color: black;
-  padding: 60px;
+  padding: 0px;
 }
 main a {
   color: black;
@@ -179,6 +180,9 @@ footer a {
   }
   p {
     font-size: 15px;
+  }
+  .credits {
+    font-size: 10px;
   }
   .grid {
     grid-template-columns: 1fr;
