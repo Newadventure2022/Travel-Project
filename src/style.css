@@ -7,10 +7,24 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
-
+.shutterstock {
+  position: absolute;
+  right: 00px;
+  top: 0px;
+}
+.shutterstock a {
+  text-decoration: none;
+  color: white;
+}
+.shutterstock a:hover {
+  color: rgba(63, 76, 119, 0.9);
+  transition: all 100ms ease-in-out;
+  text-decoration: none;
+}
 .text-center {
   text-align: center;
 }
+
 .valencia {
   max-width: 100%;
   display: block;
