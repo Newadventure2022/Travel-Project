@@ -33,10 +33,10 @@ body {
 }
 .grid {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 40px;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
 }
 .grid-2-columns {
@@ -52,6 +52,10 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.grid-2-rows {
+  display: grid;
+  grid-gap: 0;
+}
 .embed {
   width: 100%;
   aspect-ratio: 1/1;
@@ -62,6 +66,9 @@ body {
 }
 .card-header.grid {
   grid-gap: 0;
+}
+.card p {
+  text-align: left;
 }
 .card-body {
   padding: 30px;
@@ -83,6 +90,16 @@ body {
   padding: 16px;
   background-color: #251b4b;
   text-decoration: none;
+}
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.video:hover {
+  transform: scale(1.2);
+  transition: all 150ms ease-in-out;
 }
 section {
   max-width: 100%;
@@ -130,6 +147,10 @@ main a:hover {
   color: rgba(63, 76, 119, 0.9);
   transition: all 100ms ease-in-out;
   text-decoration: none;
+}
+iframe {
+  width: 100%;
+  border-radius: 10px;
 }
 footer {
   background-image: linear-gradient(
