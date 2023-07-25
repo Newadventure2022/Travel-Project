@@ -277,6 +277,9 @@ footer a:hover {
   color: black;
   text-align: center;
 }
+.table-container {
+  overflow-x: auto;
+}
 .more-info {
   color: black;
   font-weight: 500;
@@ -304,7 +307,7 @@ footer a:hover {
   #hero h1 {
     font-size: 30px;
   }
-  header h2 {
+  #hero h2 {
     font-size: 20px;
   }
   p {
